@@ -82,6 +82,13 @@ The ideal use case: deploy a dedicated agent that reviews AI-generated code agai
 - Returns specific vulnerabilities found with remediation steps
 - Works as a guardrail between AI code generation and production
 
+### Option 4: Standalone Security Review Skill - Claude Code (Recommended)
+Another ideal use case: deploy a dedicated skill in claude code that reviews AI-generated code against these patterns. This agent:
+- Takes code as input
+- Checks against all 25+ anti-patterns
+- Returns specific vulnerabilities found with remediation steps
+- Works as a guardrail between AI code generation and production
+
 ```
 ┌─────────────────┐     ┌──────────────────────┐     ┌─────────────┐
 │ AI Code Gen     │────>│ Security Review Agent │────>│ Reviewed    │
