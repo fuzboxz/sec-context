@@ -4,8 +4,6 @@
 
 [Landing and github-pages website](https://arcanum-sec.github.io/sec-context/)
 
-## The Problem
-
 AI coding assistants are everywhere. **97% of developers** now use AI tools, and organizations report **40%+ of their codebase** is AI-generated. But there's a critical gap: AI models consistently reproduce the same dangerous security anti-patterns, with studies showing:
 
 - **86% XSS failure rate** in AI-generated code
